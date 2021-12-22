@@ -1,0 +1,25 @@
+:root {
+  --font-family: -apple-system,
+    BlinkMacSystemFont,
+    "Segoe UI",
+    Roboto,
+    Oxygen,
+    Ubuntu,
+    Cantarell,
+    "Open Sans",
+    "Helvetica Neue", sans-serif;
+}
+
+body {
+  font-family: var(--font-family);
+  font-size: 1rem;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+  margin: 0;
+}
+
+.Container {
+  max-width: 800px;
+  margin: 3rem auto;
+  padding: 1rem;
+}
